@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Manish_23'
+app.config['MYSQL_PASSWORD'] = 'password'
 app.config['MYSQL_DB'] = 'flask_login'
 app.config['UPLOAD_FOLDER'] = 'file_uploads'
 app.config['SECRET_KEY'] =secrets.token_hex(16)
